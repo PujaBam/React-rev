@@ -6,8 +6,9 @@ import '../node_modules/bootstrap/js/bootstrap.bundle'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-// import Navbar from './Nabar'
-import firstpage from './About'
+import Navbar from './Nabar'
+import About from './About'
+import Abc from './xyz';
 
 //  import { Switch, Router, Redirect } from "react-router-dom"
 
@@ -16,15 +17,16 @@ function App() {
   return (
     <>
     <Navbar/>
-    <firstpage/>
-    {/* <BrowserRouter>
+    <About/>
+    <Abc/>
+    {/* <Switch>
       <Routes>
         <Route path="/" element={<Navbar />}>
           <Route path='/firstpage' element={<About/>}></Route>
           
         </Route>
       </Routes>
-    </BrowserRouter> */}
+    </Switch> */}
     
       
     

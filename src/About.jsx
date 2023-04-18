@@ -1,6 +1,6 @@
 import React from 'react'
 
-const firstpage = () => {
+const Abouts = () => {
     return(
         <>
         <section id='header' >
@@ -29,4 +29,4 @@ const firstpage = () => {
    
 }
 
-export default firstpage;
+export default Abouts;
